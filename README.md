@@ -71,7 +71,15 @@ they have some shared goals.
 
 #### virtual threads vs. threads
 
-scalability when calling: https://httpbin.org/delay/5
+scalability when calling: https://httpbin.org/delay/5 or alternatively you could run the Docker image locally:
+
+```shell
+#!/usr/bin/env bash
+docker pull kennethreitz/httpbin
+docker run -p 80:80 kennethreitz/httpbin
+```
+
+
 
 ```
 // yay
